@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> LINKIN PARK </title>
+	<link type="text/css"rel="stylesheet"href="css/estilo.css"/>
+</head>
+<body>
+		<nav>
+	<ul>
+		<li><a href="linkin park.html">LINKIN PARK</a></li>
+		<li><a href="nosotros.html">NOSOTROS</a></li>
+		<li><a href="canciones.html">CANCIONES</a></li>
+		<li><a href="conciertos.html">CONCIERTOS</a></li>
+		<li><a href="concierto madrid.html">CONCIERTOS MADRID</a></li>
+	</ul>
+	</nav>
+	<p>
+		<img id="mostrar-imagen" onclick="cambiarImagen()" src="imagenes/imagen1.png width="180" height="180"/>
+	</p>
+	<p>¡Haz clic para cambiar imágen!</p>
+	<script>
+function cambiarImagen() {
+var imagenMostrada = document.getElementById('mostrar-imagen');
+if (imagenMostrada.src.match("imagenes/imagen1.png")) {
+imagenMostrada.src = "imagenes/imagen2.png";
+}
+else {
+imagenMostrada.src = "imagenes/imagen1.png";
+}
+}
+</script>
+	
+	<p> Somos Linkin Park </p>
+	</body>
+	</html>
